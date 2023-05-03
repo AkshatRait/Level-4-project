@@ -3,11 +3,14 @@
     border-color: black;
     width: 50%;
     margin-left: 25%;
-
+    margin-top: 30px;
 }
 
+
+
 .card-img-top{
-    border-radius: 20px;
+    padding:8px;
+    border-radius: 30px;
 }
 
 .thought-bubble{
@@ -22,7 +25,9 @@
     padding: 10px;
     border-radius: 20px;
     height: 40px;
-    width: 500px;
+    width: 700px;
+    margin-left: 1%;
+    margin-right: 20px;
 }
 
 .textbox-img{
@@ -39,5 +44,36 @@ form{
     border-color: black;
     width: 50%;
     margin-left: 25%;
-    padding: 50px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.timeline-namebar img{
+    width: 80px;
+    border-radius: 100%;
+
+}
+
+.timeline h6{
+    padding: 10px;
+}
+
+.post-image img{
+    width: 100%;
+ 
+}
+
+.timeline-img{
+    width: 80px;
+    border-radius: 100%;
+}
+
+.comment-bar{
+    padding: 0%;
+    margin: 0%;
+}
+
+.likebar{
+    padding-bottom: 0%;
+    margin: 0%;
 }

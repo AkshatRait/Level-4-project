@@ -6,47 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Document</title>
 </head>
 <body>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Always expand</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-md-0">
+        <input class="form-control" type="text" placeholder="Search">
+      </form>
+    </div>
+  </nav>
     <div class="stories">
         <div class="cards">
             <div class="row">
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="./images/yorkie.jpg" data-holder-rendered="true">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: fit-content; width: 100%; display: block;" src="./images/no-poverty.jpg" data-holder-rendered="true">
                     <div class="card-body">
-                     
+                      <a href="https://sdgs.un.org/goals/goal1"><h3> Number 1: No Poverty</h3></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./images/yorkie.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./images/zero-hunger.jpg" data-holder-rendered="true" style="height: fit-content; width: 100%; display: block;">
                     <div class="card-body">
-
+                      <a href="https://sdgs.un.org/goals/goal2"><h3> Number 2: Zero Hunger</h3></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./images/yorkie.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="./images/good-health.jpg" data-holder-rendered="true" style="height: fit-content; width: 100%; display: block;">
                     <div class="card-body">
-                     
+                      <a href="https://sdgs.un.org/goals/goal3"><h3> Number 3: Good Health</h3></a>
                     </div>
                   </div>
+                </div>
+                <div>
+                  
                 </div>
     
                
-              </div>
+              </div><a href="https://sdgs.un.org/goals"><p>Learn more here-></p></a>
         </div>
    </div>
    <div class="thought-bubble">
     <div class="my-3 p-3 bg-white rounded box-shadow">
         <div class="media text-muted pt-3">
-            <img class ="textbox-img" src="./images/yorkie.jpg">
-            <form action="/action_page.php">
-        
+            <img class ="textbox-img" src="./images/User.jpg">
+            
                 <textarea id="textbox" name="textbox" rows="4" cols="50">What's on your mind, User?</textarea>
                 <br>
                 <input type="submit" value="Submit">
@@ -57,9 +80,87 @@
       </div>
    </div>
 <div class="timeline">
-    <div>
-        
+  <div id="post">
+      <div class="timeline-namebar">
+        <h6><img src="/images/united-nations.jpg"><br>United Nations<br>
+        <sub>22 March 2023 </sub></h6>
+       <h2><strong>UN calls for game-changing action to stem global water crisis</strong></h2>
+      </div>
+      
+        <div class= "post-image"><img src="/images/timeline-1.jpg">
+        </div>
+      <div class="likebar">
+        <!--Add Icons--><h6>Golden Retriever and Labrador liked this post.</h6>
+       </div>
+        <div class="comment-bar"> 
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+        <div class="media text-muted pt-3">
+            <img class ="timeline-img" src="./images/User.jpg">
+            
+                <textarea id="textbox" name="textbox" rows="4" cols="50">Write a comment.</textarea>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+          </div>
+        </div>
+      </div>
     </div>
+</div>
+
+<div class="timeline">
+  <div id="post">
+      <div class="timeline-namebar">
+        <h6><img src="/images/united-nations.jpg"><br>United Nations<br>
+          <sub>22 March 2023 </sub></h6>
+         <h2><strong>UN Forum concludes with urgent call for nations to scale up development cooperation to better support the most vulnerable</strong></h2>
+        </div>
+        <div class= "post-image"><img src="/images/timeline-2.jpg">
+        </div>
+      <div class="likebar">
+        <!--Add Icons--><h6>Golden Retriever and Labrador liked this post.</h6>
+       </div>
+        <div class="comment-bar"> 
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+        <div class="media text-muted pt-3">
+            <img class ="timeline-img" src="./images/User.jpg">
+            
+                <textarea id="textbox" name="textbox" rows="4" cols="50">Write a comment.</textarea>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="timeline">
+  <div id="post">
+      <div class="timeline-namebar">
+        <h6><img src="/images/united-nations.jpg"><br>United Nations<br>
+          <sub>22 March 2023 </sub></h6>
+         <h2><strong>UN calls for game-changing action to stem global water crisis</strong></h2>
+        </div>
+        <div class= "post-image"><img src="/images/yorkie.jpg">
+        </div>
+      <div class="likebar">
+        <!--Add Icons--><h6>Golden Retriever and Labrador liked this post.</h6>
+       </div>
+        <div class="comment-bar"> 
+    <div class="my-3 p-3 bg-white rounded box-shadow">
+        <div class="media text-muted pt-3">
+            <img class ="timeline-img" src="./images/User.jpg">
+            
+                <textarea id="textbox" name="textbox" rows="4" cols="50">Write a comment.</textarea>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 </div>
 
    
